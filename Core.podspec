@@ -5,12 +5,12 @@ Pod::Spec.new do |s|
   s.name = "Core"
   s.summary = "iOS Anime App Core module"
   s.requires_arc = true
-  s.version = "1.0.0"
+  s.version = "2.0.0"
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.author = { "Adadua karunia putera" => "adasoraninda@gmail.com" }
   s.homepage = "https://github.com/codetron21"
   s.source = { 
-    :git =>"https://github.com/codetron21/AnimeApp-Modularization-Core-Pods.git",
+    :git =>"https://github.com/codetron21/Modularization-Core-Module.git",
     :tag => "#{s.version}" 
   }
   s.framework = "UIKit"
