@@ -6,42 +6,18 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = SwiftLint;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		484D2B870A674AC61276C9C71F0FE3B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B279792DE34BEEA86C2570C8442F01EC /* Pods-Core-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FB38A7EDFD7B04BBE074EFD550C110 /* Pods-Core-dummy.m */; };
-		CF6DDEA16979C52848C338B5C79E3037 /* Pods-Core-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 333C8C489B3E88301B4A375B1702382C /* Pods-Core-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		447D7BC31D86B1EE99C501BF6FADAF07 /* Pods-Core-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 333C8C489B3E88301B4A375B1702382C /* Pods-Core-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B18732FB83351C14CCAA6224966F3B86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BBC13D701911A0351CEBAFE922AFF71B /* Pods-Core-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FB38A7EDFD7B04BBE074EFD550C110 /* Pods-Core-dummy.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D987C4E425888A4408A5ED38155B2C5A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
-			remoteInfo = SwiftLint;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2A571CA890915A5CFD8C35ABA03C9573 /* Pods-Core-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Core-acknowledgements.markdown"; sourceTree = "<group>"; };
 		333C8C489B3E88301B4A375B1702382C /* Pods-Core-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Core-umbrella.h"; sourceTree = "<group>"; };
-		3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
 		5296A899114AD35114F1DF5C3460F83A /* Pods-Core */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Core"; path = Pods_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58EFB1E0E3907C59B955754ADD12DF77 /* Pods-Core.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Core.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
 		87140127E7BB3AC619BC7F84830F2292 /* Pods-Core-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Core-Info.plist"; sourceTree = "<group>"; };
 		97FB38A7EDFD7B04BBE074EFD550C110 /* Pods-Core-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Core-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -51,11 +27,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DEA5B183B79C48A4F8D7ACBF4809BC0F /* Frameworks */ = {
+		11AE516F4D4DB04BB5D96F5CF24A1941 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				484D2B870A674AC61276C9C71F0FE3B2 /* Foundation.framework in Frameworks */,
+				B18732FB83351C14CCAA6224966F3B86 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,24 +62,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */,
-				7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftLint";
-			sourceTree = "<group>";
-		};
-		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D96179D43A67C5D5323B0682D32C133C /* SwiftLint */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		C8E4069F4D85906D3EC302D68D757FF8 /* Pods-Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,7 +83,6 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				965877409E01FB3D85D85E90E6B30185 /* Pods */,
 				2AB1F95FFA9BD6A699FB2DAD0CF0FD05 /* Products */,
 				4868663719E0CC1658863DC789DB1DF2 /* Targets Support Files */,
 			);
@@ -139,23 +96,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D96179D43A67C5D5323B0682D32C133C /* SwiftLint */ = {
-			isa = PBXGroup;
-			children = (
-				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
-			);
-			name = SwiftLint;
-			path = SwiftLint;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A998B14A1AFEE4BA9EE2A63126164316 /* Headers */ = {
+		05EF7B62D0AEFF10BAAF4AF3CEEC8C49 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF6DDEA16979C52848C338B5C79E3037 /* Pods-Core-umbrella.h in Headers */,
+				447D7BC31D86B1EE99C501BF6FADAF07 /* Pods-Core-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,17 +112,16 @@
 /* Begin PBXNativeTarget section */
 		A8D5EF097DB70BA987754AF4963AE0F7 /* Pods-Core */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F917606CF6DD0CBC9AC3B8E40C14DFB6 /* Build configuration list for PBXNativeTarget "Pods-Core" */;
+			buildConfigurationList = 1156B85EF479B8381FDD699C6587FDAC /* Build configuration list for PBXNativeTarget "Pods-Core" */;
 			buildPhases = (
-				A998B14A1AFEE4BA9EE2A63126164316 /* Headers */,
-				F0A4B02E029537EF28752F76315DE4FC /* Sources */,
-				DEA5B183B79C48A4F8D7ACBF4809BC0F /* Frameworks */,
-				101073866C0B88F10C94FC6800555872 /* Resources */,
+				05EF7B62D0AEFF10BAAF4AF3CEEC8C49 /* Headers */,
+				41B45491BDA94CBA4B5FEB8E5882AB08 /* Sources */,
+				11AE516F4D4DB04BB5D96F5CF24A1941 /* Frameworks */,
+				B56208546C138FA3BCF4A8BF5B18E4B1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B37E6A54FA177FA51EE09236820318C8 /* PBXTargetDependency */,
 			);
 			name = "Pods-Core";
 			productName = Pods_Core;
@@ -204,13 +151,12 @@
 			projectRoot = "";
 			targets = (
 				A8D5EF097DB70BA987754AF4963AE0F7 /* Pods-Core */,
-				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		101073866C0B88F10C94FC6800555872 /* Resources */ = {
+		B56208546C138FA3BCF4A8BF5B18E4B1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -220,27 +166,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F0A4B02E029537EF28752F76315DE4FC /* Sources */ = {
+		41B45491BDA94CBA4B5FEB8E5882AB08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B279792DE34BEEA86C2570C8442F01EC /* Pods-Core-dummy.m in Sources */,
+				BBC13D701911A0351CEBAFE922AFF71B /* Pods-Core-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		B37E6A54FA177FA51EE09236820318C8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftLint;
-			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
-			targetProxy = D987C4E425888A4408A5ED38155B2C5A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		5B5A4002AF9440585C4B0C22EF95C77C /* Release */ = {
+		142E044DAAD2F42F181161A6F5E55DF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A95EF61EB4E685B92EF331500F1A4F5A /* Pods-Core.release.xcconfig */;
 			buildSettings = {
@@ -278,7 +215,7 @@
 			};
 			name = Release;
 		};
-		79BE60656A156EF847143D3B1EEB136A /* Debug */ = {
+		21631BC6F2F1C2CB2ACDEECF53858769 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A2B0C9896404F29DC0E6338E2D3B2BB9 /* Pods-Core.debug.xcconfig */;
 			buildSettings = {
@@ -443,65 +380,23 @@
 			};
 			name = Release;
 		};
-		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1156B85EF479B8381FDD699C6587FDAC /* Build configuration list for PBXNativeTarget "Pods-Core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21631BC6F2F1C2CB2ACDEECF53858769 /* Debug */,
+				142E044DAAD2F42F181161A6F5E55DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
 				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */,
-				AD81E62ACCB0B7A923FC8AA288F9921E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F917606CF6DD0CBC9AC3B8E40C14DFB6 /* Build configuration list for PBXNativeTarget "Pods-Core" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				79BE60656A156EF847143D3B1EEB136A /* Debug */,
-				5B5A4002AF9440585C4B0C22EF95C77C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
