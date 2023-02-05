@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   }
   s.framework = "UIKit"
   s.source_files = "Core/**/*.{swift}"
-  s.dependency 'SwiftLint'
+  #s.dependency 'SwiftLint'
   s.swift_version = "5.5"
 
 end
